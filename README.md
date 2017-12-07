@@ -6,7 +6,7 @@ Realizado o desafio proposto pela Voxus de desenvolver um Dashboard de Tasks.
 
  
 
-`PHP | jQuery | AJAX | HTML5 | CSS5`\
+`PHP | jQuery | AJAX | HTML5 | CSS3`\
 `BootStrap | FontAwesome`
 
 
