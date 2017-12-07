@@ -22,4 +22,10 @@ Após configurar o banco de dados deve configurar a conexão  no arquivo  ' **Co
 `WampServer | MySQL Worckbench | PhpStorm | Notepad++ | Git`
 
 
+**TEMPO UTILIZADO**
+
+Cerca de 8-12 Horas de programação.
+
+Cerca de 6-10 Horas de pesquisa.
+
 
