@@ -6,7 +6,10 @@
  * Time: 07:16
  */
 
+include_once 'functions.php';
+
 session_start(); //Inicia a Sessão
+//userActive();
 
 date_default_timezone_set('America/Sao_Paulo');
 
@@ -22,6 +25,7 @@ define('DB_PASS','');
 define('DB_BASE','voxus');
 
 //Executa conexão com o banco de dados, se houver falha termina a conexão.
+global $cnx;
 @$cnx = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_BASE) or die ('<br>ERROR AO CONECTAR NO BANCO DE DADOS => <br>'.mysqli_connect_error());
 
 
@@ -33,3 +37,10 @@ define('DB_BASE','voxus');
  */
 
 define('SITE_TITLE', 'Dashboard​ ​de​ Tasks');
+
+
+
+
+if(!isset($userData)){
+    @$userData = $_SESSION['userData'];
+}
