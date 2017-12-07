@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./src/css/font-awesome.min.css">
 
     <!-- ESTILIZAÇÃO DO SITE -->
-    <link rel="stylesheet" href="../src/css/bootstrap-dataTable.min.css">
+    <link rel="stylesheet" href="./src/css/bootstrap-dataTable.min.css">
     <link rel="stylesheet" href="./src/css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/css/style.css">
 
